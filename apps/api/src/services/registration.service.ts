@@ -8,7 +8,7 @@ import { EmailService } from "./email.service.js";
 import { TokenService } from "./token.service.js";
 import { OAuthUserInput } from "../schemas/index.js";
 import { generateToken } from "../utils/jwt.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export class RegistrationService {
   private emailService = new EmailService();
