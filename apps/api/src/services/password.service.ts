@@ -1,6 +1,6 @@
-import { prisma } from "@/configs/prisma.config.js";
+import { prisma } from "../configs/prisma.config.js";
 import { ResetPasswordWithTokenInput } from "../schemas/index.js";
-import { AppError } from "@/errors/app.error.js";
+import { AppError } from "../errors/app.error.js";
 import { EmailService } from "./email.service.js";
 import { TokenService } from "./token.service.js";
 import bcrypt from "bcrypt";

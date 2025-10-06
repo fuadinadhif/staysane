@@ -1,8 +1,8 @@
 // apps/api/src/services/booking/core/booking-management.service.ts
 // Key changes: Ensure createdAt is included in all booking queries
 
-import { prisma } from "@/configs/prisma.config.js";
-import { AppError } from "@/errors/app.error.js";
+import { prisma } from "../../../configs/prisma.config.js";
+import { AppError } from "../../../errors/app.error.js";
 import type { BookingFilters } from "../../../types/index.js";
 import type { OrderStatus } from "@prisma/client";
 

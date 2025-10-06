@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { reviewService } from "@/services/review.service.js";
+import { reviewService } from "../services/review.service.js";
 import {
   createReviewSchema,
   updateReviewSchema,

@@ -1,9 +1,9 @@
-import { prisma } from "@/configs/prisma.config.js";
+import { prisma } from "../configs/prisma.config.js";
 import {
   RegistrationStartInput,
   CompleteRegistrationInput,
 } from "../schemas/index.js";
-import { AppError } from "@/errors/app.error.js";
+import { AppError } from "../errors/app.error.js";
 import { EmailService } from "./email.service.js";
 import { TokenService } from "./token.service.js";
 import { OAuthUserInput } from "../schemas/index.js";

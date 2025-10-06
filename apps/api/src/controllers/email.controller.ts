@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { EmailService } from "@/services/email.service.js";
+import { EmailService } from "../services/email.service.js";
 
 const emailService = new EmailService();
 

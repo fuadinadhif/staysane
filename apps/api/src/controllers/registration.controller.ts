@@ -4,8 +4,8 @@ import {
   OAuthUserSchema,
 } from "../schemas/index.js";
 import { NextFunction, Request, Response } from "express";
-import { RegistrationService } from "@/services/registration.service.js";
-import { FileService } from "@/services/file.service.js";
+import { RegistrationService } from "../services/registration.service.js";
+import { FileService } from "../services/file.service.js";
 
 export class RegistrationController {
   private registrationService = new RegistrationService();

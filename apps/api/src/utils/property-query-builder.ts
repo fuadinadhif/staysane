@@ -1,6 +1,6 @@
 import type { GetPropertiesParams } from "../schemas/index.js";
 import type { Prisma } from "@prisma/client";
-import { prisma } from "@/configs/prisma.config.js";
+import { prisma } from "../configs/prisma.config.js";
 
 export class PropertyQueryBuilder {
   private params: GetPropertiesParams;

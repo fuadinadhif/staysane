@@ -1,6 +1,6 @@
 import multer from "multer";
-import { cloudinary } from "@/configs/cloudinary.config.js";
-import { AppError } from "@/errors/app.error.js";
+import { cloudinary } from "../configs/cloudinary.config.js";
+import { AppError } from "../errors/app.error.js";
 import streamifier from "streamifier";
 
 // Use memory storage instead of disk storage

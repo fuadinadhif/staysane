@@ -4,7 +4,7 @@ import {
   unblockRoomDatesSchema,
   getRoomAvailabilitySchema,
 } from "../schemas/index.js";
-import { roomAvailabilityService } from "@/services/room-availability.service.js";
+import { roomAvailabilityService } from "../services/room-availability.service.js";
 
 export class RoomAvailabilityController {
   getRoomAvailability = async (
