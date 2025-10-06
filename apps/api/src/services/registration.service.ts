@@ -7,7 +7,7 @@ import { AppError } from "@/errors/app.error.js";
 import { EmailService } from "./email.service.js";
 import { TokenService } from "./token.service.js";
 import { OAuthUserInput } from "../schemas/index.js";
-import { generateToken } from "@/utils/jwt.js";
+import { generateToken } from "../utils/jwt.js";
 import bcrypt from "bcrypt";
 
 export class RegistrationService {

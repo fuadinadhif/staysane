@@ -4,7 +4,7 @@ import {
   TOKEN_EXPIRE_QUEUE,
   TokenExpireJobData,
 } from "@/queues/token.queue.js";
-import logger from "@/utils/logger.js";
+import logger from "../utils/logger.js";
 import { prisma } from "@/configs/prisma.config.js";
 
 const events = new QueueEvents(TOKEN_EXPIRE_QUEUE, {
